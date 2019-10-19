@@ -29,7 +29,6 @@ class AdminCommands(commands.Cog):
             self._eval['count'] = 0
 
         self._eval['env'].update({
-            'lookups': self.lookups,
             'ctx': ctx,
             'message': ctx.msg,
             'channel': ctx.msg.channel,
